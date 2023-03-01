@@ -1,0 +1,41 @@
+html {
+    font-family: 'Petit Formal Script';
+    font-size: 125%;
+    color: white;
+    background-color: #815600;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 62.5%;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+  background-color: #1d0303;
+  color: white;
+  font-family: "Petit Formal Script";
+  font-size: 1rem;
+  line-height: 29px;
+  display: inline-block;
+  width: 160px;
+  border: none;
+}

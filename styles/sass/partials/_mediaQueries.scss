@@ -1,0 +1,210 @@
+@media (max-width: 810px) {
+  .icons ul {
+    padding: 0px 40px;
+  }
+
+  .textDiv {
+    margin: 0;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 651px) {
+  .hideDesktop, .homeMobile, .submitMobile, .formMobile{
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  .header {
+    width: 100%;
+    flex-direction: column;
+
+    img {
+      width: 70%;
+      margin-right: 11rem;
+    }
+  }
+
+  h1 {
+    margin: 3rem 0rem 0 6rem;
+    font-size: clamp(1rem, 10vw, 2.5rem);
+  }
+
+  .social i {
+    display: none;
+  }
+
+  .navBar {
+    min-height: 70px;
+    z-index: 20;
+    position: absolute;
+    right: 0;
+  }
+
+  .navFlex {
+    display: flex;
+    justify-content: right;
+    position: fixed;
+  }
+
+  .navMenu {
+    position: fixed;
+    left: -100%;
+    gap: 0;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(11px);
+    rotate: (45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-11px);
+    rotate: (-45deg);
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  .navItem {
+    margin: 15px 0;
+  }
+
+  .navBar.active {
+    background-color: #815600;
+  }
+
+  .navMenu.active {
+    left: 0;
+    background-color: #815600;
+    padding: 0;
+  }
+
+  .navLink {
+    transition: 0.7s ease;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+  }
+
+  .sectionOne {
+    padding: 20px 20px;
+  }
+
+  .handCrafted {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionOne {
+    h2 {
+      text-align: center;
+    }
+  }
+
+  p {
+    font-size: 83.3%;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+  }
+
+  button {
+    margin: 10px auto 25px;
+  }
+
+  .gallery ul {
+    flex-direction: row-reverse;
+  }
+
+  .gallery li {
+    margin-bottom: 20px;
+  }
+
+  .brownBag {
+    display: none;
+  }
+
+  .icons {
+    flex-direction: column;
+  }
+
+  .icons li {
+    font-size: 30px;
+  }
+
+  .square {
+    flex-direction: column;
+  }
+
+  .square div {
+    width: 100%;
+  }
+
+  .hideMobile, .homeDesktop, .formDesktop{
+    display: none;
+  }
+
+  .formMobile {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+  }
+
+  .textDiv {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    p {
+      margin: 1rem;
+    }
+  }
+
+  .contactSection {
+    flex-direction: column;
+
+    li {
+      padding: 0 15px;
+      font-size: 83.3%;
+    }
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .homeMobile {
+    display: flex;
+    font-size: clamp(1rem, 10vw, 1.5rem);
+  }
+}
